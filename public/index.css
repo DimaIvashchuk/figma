@@ -1,0 +1,24 @@
+@import '../src/scss/fonts.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Circe;
+}
+
+ul, a {
+    list-style: none;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+input::-webkit-search-decoration, 
+input::-webkit-search-cancel-button, 
+input::-webkit-search-results-button, 
+input::-webkit-search-results-decoration {
+    display: none;
+}

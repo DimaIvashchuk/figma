@@ -1,0 +1,53 @@
+.task {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        padding: 50px;
+        border: 2px solid black;
+        :first-child {
+            margin-right: 20px;
+        }
+
+        &-radio {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+            :first-child {
+                margin-right: 20px;
+            }
+        }
+
+        input.password {
+            width: 400px;
+            height: 30px;
+            font-size: 20px;
+            border: 3px solid black;
+
+            &-green{
+                border-color: green;
+            }
+
+            &-red{
+                border-color: red;
+            }
+        }
+
+        input.radio {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+        }
+    }
+}
+
+.list {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
